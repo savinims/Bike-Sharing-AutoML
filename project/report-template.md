@@ -60,3 +60,5 @@ On feature engineering. I would spend more time to create features that are rele
 
 ## Summary
 The results show that the different modifications improved the score on the test dataset. However, we see that the performance on the training dataset initially improves and then undergoes some small degradations. This can suggest that the models are improving their generalization capability by reducing overfitting to training data.
+
+The results indicate that using a log transform on the predictand performs favorably on the test data and that running AutoGluon search for a longer time (30min) along with hyperparameter optimization also provide small performance boosts on the test data.
